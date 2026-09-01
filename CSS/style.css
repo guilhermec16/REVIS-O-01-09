@@ -107,7 +107,7 @@ body .fotof {
     height: 150px;
 }
 
-.infoCard {
+.infoCard, .infoVideo {
     justify-content: center;
     text-align: center;
     display: flex;
