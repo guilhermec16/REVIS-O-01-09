@@ -1,0 +1,21 @@
+.container {
+    background-color: blueviolet;
+    height: 80px;
+    display: flex;
+
+}
+
+.logo {
+    background-color: rgba(255, 255, 0, 0.788);
+    height: 80px;
+    margin-left: 25px;
+    width: 70px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.link{
+
+}
