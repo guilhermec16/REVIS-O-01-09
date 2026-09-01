@@ -1,21 +1,65 @@
 .container {
-    background-color: blueviolet;
-    height: 80px;
+    background-color: rgb(226, 43, 43);
+    height: 100px;
     display: flex;
-
+    padding: 10px;
 }
 
 .logo {
-    background-color: rgba(255, 255, 0, 0.788);
-    height: 80px;
+    background-color: rgba(0, 0, 0, 0.788);
+    height: 90px;
     margin-left: 25px;
-    width: 70px;
+    width: 80px;
     display: flex;
     text-align: center;
     justify-content: center;
-    
+    border-radius: 10px;
+    margin-top: 5px;
+    border: 1px solid bisque;
+}
+
+.logo img{
+    margin-top: 12px;
+    width: 60px;
+    height: 70px;
 }
 
 .link{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
+.link a{
+    color: black;
+}
+
+.botao {
+    height: 40px;
+    margin-left: 70px;
+    width: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.botao button{
+    background-color: black;
+    color: azure;
+    border-radius: 5px;
+    border: 1px solid bisque;
+}
+
+.botao button:hover{
+     background-color: rgba(131, 0, 0, 0.726);
+    color: azure;
+    border-radius: 5px;
 }
