@@ -81,13 +81,14 @@ body .fotof {
     position: absolute;
     bottom: 400px;
     margin-left: 150px;
-    background-color: rgb(253, 253, 253);
-    color: rgb(0, 0, 0);
+    background: linear-gradient(135deg, rgb(255, 0, 0), #0e0f0f);
+    color: rgb(255, 254, 254);
     padding: 5px 15px;
     border-radius: 5px;
     width: 500px;
     height: 200px;
     text-align: center;
+    border: 2px bisque solid;
 }
 
 .informacoes h5 {
@@ -116,26 +117,29 @@ body .fotof {
 .card1 {
     width: 200px;
     height: 150px;
-    padding: 50px;
+    padding: 140px;
     padding-top: 20px;
     background: linear-gradient(135deg, rgb(255, 0, 0), #0e0f0f);
     border-radius: 10px;
+    border: 1px bisque solid;
 }
 
 .card2 {
     width: 200px;
     height: 150px;
-    padding: 50px;
+    padding: 140px;
     padding-top: 20px;
     background: linear-gradient(135deg, rgb(255, 0, 0), #0e0f0f);
     border-radius: 10px;
+    border: 1px bisque solid;
 }
 
 .card3 {
     width: 200px;
     height: 150px;
-    padding: 50px;
+    padding: 140px;
     padding-top: 20px;
     background: linear-gradient(135deg, rgb(255, 0, 0), #0e0f0f);
     border-radius: 10px;
+    border: 1px bisque solid;
 }
