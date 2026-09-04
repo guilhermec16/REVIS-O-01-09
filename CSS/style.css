@@ -95,7 +95,8 @@ body .fotof {
     margin: 0;
 }
 
-.card {
+.card,
+.videos {
     justify-content: space-between;
     display: flex;
 }
@@ -107,7 +108,8 @@ body .fotof {
     height: 150px;
 }
 
-.infoCard, .infoVideo {
+.infoCard,
+.infoVideo, .Galeria {
     justify-content: center;
     text-align: center;
     display: flex;
@@ -124,6 +126,14 @@ body .fotof {
     border: 1px bisque solid;
 }
 
+.card1:hover {
+
+    background: linear-gradient(135deg, rgb(255, 0, 0), #0e0f0f);
+    border: 1px rgb(231, 147, 147) solid;
+    box-shadow: 0px 0px 15px red;
+    transform: translateY(-10px);
+}
+
 .card2 {
     width: 200px;
     height: 150px;
@@ -134,6 +144,13 @@ body .fotof {
     border: 1px bisque solid;
 }
 
+.card2:hover {
+    background: linear-gradient(135deg, rgb(255, 0, 0), #0e0f0f);
+    border: 1px rgb(231, 147, 147) solid;
+    box-shadow: 0px 0px 15px red;
+    transform: translateY(-10px);
+}
+
 .card3 {
     width: 200px;
     height: 150px;
@@ -142,4 +159,139 @@ body .fotof {
     background: linear-gradient(135deg, rgb(255, 0, 0), #0e0f0f);
     border-radius: 10px;
     border: 1px bisque solid;
+}
+
+.card3:hover {
+    background: linear-gradient(135deg, rgb(255, 0, 0), #0e0f0f);
+    border: 1px rgb(231, 147, 147) solid;
+    box-shadow: 0px 0px 15px red;
+    transform: translateY(-10px);
+}
+
+video {
+    width: 250px;
+    height: 190px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+
+.cardVideo1 {
+    width: 210px;
+    height: 140px;
+    padding: 140px;
+    padding-top: 5px;
+    background: linear-gradient(135deg, rgb(255, 0, 0), #0e0f0f);
+    border-radius: 10px;
+    border: 1px bisque solid;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardVideo1:hover {
+    background: linear-gradient(135deg, rgb(255, 0, 0), #0e0f0f);
+    border: 1px rgb(231, 147, 147) solid;
+    box-shadow: 0px 0px 15px red;
+    transform: translateY(-10px);
+}
+
+.cardVideo2 {
+    width: 210px;
+    height: 140px;
+    padding: 140px;
+    padding-top: 5px;
+    background: linear-gradient(135deg, rgb(255, 0, 0), #0e0f0f);
+    border-radius: 10px;
+    border: 1px bisque solid;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardVideo2:hover {
+    background: linear-gradient(135deg, rgb(255, 0, 0), #0e0f0f);
+    border: 1px rgb(231, 147, 147) solid;
+    box-shadow: 0px 0px 15px red;
+    transform: translateY(-10px);
+}
+
+.cardVideo3 {
+    width: 210px;
+    height: 140px;
+    padding: 140px;
+    padding-top: 5px;
+    background: linear-gradient(135deg, rgb(255, 0, 0), #0e0f0f);
+    border-radius: 10px;
+    border: 1px bisque solid;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardVideo3:hover {
+    background: linear-gradient(135deg, rgb(255, 0, 0), #0e0f0f);
+    border: 1px rgb(231, 147, 147) solid;
+    box-shadow: 0px 0px 15px red;
+    transform: translateY(-10px);
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudoModal {
+    background: linear-gradient(135deg, rgb(255, 0, 0), #0e0f0f);
+    width: 400px;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid bisque;
+    text-align: center;
+}
+
+.conteudoModal input,
+.conteudoModal textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+#fecharModal {
+    background-color: black;
+    color: white;
+    border: 1px solid bisque;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right;
+}
+
+#fecharModal:hover {
+    background-color: rgba(131, 0, 0, 0.726);
+}
+
+.conteudoModal button {
+    background-color: black;
+    color: white;
+    border: 1px solid bisque;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.conteudoModal button:hover {
+    background-color: rgba(131, 0, 0, 0.726);
+}
+
+footer{
+
 }
