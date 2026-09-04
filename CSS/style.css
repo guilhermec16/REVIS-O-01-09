@@ -109,7 +109,7 @@ body .fotof {
 }
 
 .infoCard,
-.infoVideo, .Galeria {
+.infoVideo, .Galeria, .Perguntas1 {
     justify-content: center;
     text-align: center;
     display: flex;
@@ -294,4 +294,17 @@ video {
 
 footer{
 
+}
+
+@media (max-width: 768px) {
+
+    body {
+        margin: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+p{
+    color: aliceblue;
 }
