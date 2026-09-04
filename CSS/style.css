@@ -109,7 +109,9 @@ body .fotof {
 }
 
 .infoCard,
-.infoVideo, .Galeria, .Perguntas1 {
+.infoVideo,
+.Galeria,
+.Perguntas1 {
     justify-content: center;
     text-align: center;
     display: flex;
@@ -292,8 +294,77 @@ video {
     background-color: rgba(131, 0, 0, 0.726);
 }
 
-footer{
+.footer {
+    background: linear-gradient(135deg, #111111, #8b0000);
+    color: white;
+    margin-top: 50px;
+    border-top: 4px solid red;
+}
 
+.footer-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+    padding: 40px 0;
+}
+
+.footer-container h3 {
+    color: red;
+    margin-bottom: 15px;
+}
+
+.footer-logo {
+    width: 250px;
+}
+
+.footer-logo img {
+    width: 70px;
+    height: 70px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+}
+
+
+.footer-links,
+.footer-social,
+.footer-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-links a,
+.footer-social a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+    color: red;
+}
+
+
+.footer-contato p {
+    margin: 5px 0;
+}
+
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+
+    text-align: center;
+
+    padding: 15px;
+
+    font-size: 13px;
 }
 
 @media (max-width: 768px) {
@@ -305,6 +376,6 @@ footer{
     }
 }
 
-p{
+p {
     color: aliceblue;
 }
